@@ -1,0 +1,28 @@
+{
+  "name": "topcoat-variables",
+  "version": "0.0.0",
+  "description": "Variables for Topcoat component variations.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topcoat/variables.git"
+  },
+  "keywords": [
+    "topcoat",
+    "variables"
+  ],
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/topcoat/topcoat/issues"
+  },
+  "homepage": "http://topcoat.io",
+  "devDependencies": {
+    "cz-customizable": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}

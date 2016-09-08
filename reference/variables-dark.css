@@ -1,0 +1,55 @@
+:root {
+  --border--invalid: 1px solid var(--notification-color);
+  --bg-color--notification: var(--notification-color);
+
+  --color--placeholder: hsla(180, 2%, 78%, 1);
+  --color--focus: hsla(0, 0%, 0%, 1);
+  --menu-stack-icon : url("../img/hamburger_light.svg");
+
+  --color--navigation-bar : var(--highlight-color);
+  --box-shadow--navigation-bar : inset 0 -1px var(--border-color), 0 var(--border-thickness) hsla(180, 1%, 27%, 1);
+
+  --color--focus : var(--highlight-color);
+  --background-color--text-input : var(--background-color--input);
+  --background-color--text-input--focus : var(--background-color);
+  --box-shadow--text-input : inset 0 var(--border-thickness) 0 hsla(0, 0%, 0%, 0.23);
+
+  --background-color--list : hsla(180, 1%, 27%, 1);
+  --border-top--list-container : var(--border);
+  --border-top--list : var(--border);
+  --border-bottom--list : var(--border-thickness) solid hsla(180, 1%, 38%, 1);
+  --border-top--list-item--first : var(--border-thickness) solid hsla(0, 0%, 0%, 0.05);
+  --border-top--list-item : var(--border-bottom--list);
+  --border-bottom--list-item : var(--border);
+  --color--list-header : var(--color);
+  --text-shadow--list-header : 0 var(--border-thickness) 0 hsla(0, 100%, 100%, 0.1);
+  --border-top--list-header : var(--border-thickness) solid hsla(0, 100%, 100%, 0.1);
+  --border-bottom--list-header : var(--border-thickness) solid hsla(0, 100%, 100%, 0.05);
+  --background-color--list-header : var(--background-color--down);
+
+  --modal-bg-color : var(--background-color);
+  --overlay__header-border : var(--border);
+
+  --bar-bg-color : var(--background-color--down);
+  --progress-bg-color : var(--background-color);
+
+  --border--checkmark : 7px solid var(--color);
+
+  --range-background : var(--background-color--down);
+  --range__slider-border : var(--border);
+  --range__slider-background : var(--background-color);
+  --range__slider-bg-size : 7px 18px;
+  --range__slider-box-shadow : inset 0 var(--border-thickness) 0 hsla(0, 0%, 0%, 0.05);
+
+  --border--radio-button : var(--border-thickness) solid hsla(0, 0%, 0%, 0.05);
+  --background--radio-button : var(--color);
+  --box-shadow--radio-button : 0 var(--border-thickness) hsla(0, 100%, 100%, 0.1);
+
+  --color--tab-bar--active : var(--background-color--cta);
+  --background-color--tab-bar--active : var(--background-color--down);
+  --box-shadow--tab-bar--active : inset 0 0 var(--border-thickness);
+
+  --color--switch__label--left : var(--background-color--cta);
+  --background-color--switch__label--left : var(--background-color--down);
+  --background-color--switch__label--right : var(--background-color--down);
+}

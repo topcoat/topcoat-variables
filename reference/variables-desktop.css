@@ -1,0 +1,4 @@
+:root {
+  --search-icon: url("../img/search.svg");
+  --background-image--search-input: var(--search-icon);
+}

@@ -1,0 +1,7 @@
+:root {
+  --bar-border-radius  : 12px;
+  --bar-width          : 250px;
+  --bar-height         : 1.25rem;
+  --progress-border-radius: 12px 0 0 12px;
+  --search-icon: url("../img/search.svg");
+}
